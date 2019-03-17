@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DogParty</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<nav id="topnav">
+			<img src="images/dog-icon.svg" id="logo" width="50px" height="50px" align="left">
+			<a href="#howtodog" class="navtext">How To Dog</a>
+			<a href="#whatisdogs" class="navtext">What Is Dogs</a>
+			<a href="#factsfromdogs" class="navtext">Facts From Dogs</a>
+		</nav>
+		<header class="section" id="section1">
+			<div id="some_dogs">
+				<p class="whitetext" id="siteabout">A Site About <span id="dogsname">Some Dogs</span></p>
+				<img src="images/dog1-sq.jpg" class="dogpics" width="200px">
+				<p class="whitetext" id="inputname">Name</p>
+				<form action="/index.html">
+					<input type="text" name="Name" id="userinput">
+				</form>
+					<button class="buttons" id="namebutton" onclick="changeName()">Name This Dog</button>
+				<script>
+					function changeName() {
+						var newName = document.getElementById("userinput").value;
+						document.getElementById("dogsname").innerHTML = newName;
+					}
+				</script>
+			</div>
+		</header>
+		<section class="section" id="section2">
+			<div class="dogs" id="how">
+				<h3>How To Dog</h3>
+				<img src="images/dog2-sq.jpg" class="dogpics" width="180px">
+				<p class="dogparagraphs">Dat tungg tho pupperino length boy. Borkdrive aqua doggo. Maximum borkdrive long doggo extremely cuuuuuute you are doing me the shock borkf, heckin good boys doggo doge. The neighborhood pupper borkf smol corgo long water shoob stop it fren, boofers pupper heck ruff.</p>
+				<button class="buttons">How</button>
+			</div>
+			<div class="dogs" id="what">
+				<h3>What Is Dogs</h3>
+				<img src="images/dog3-sq.jpg" class="dogpics" width="180px">
+				<p class="dogparagraphs">Long doggo smol borking doggo with a long snoot for pats pupperino h*ck heckin angery woofer shoober aqua doggo heck, angery woofer pupper I have ever seen heckin angery woofer pupper. Ruff adorable doggo very hand that feed shibe. 
+				Extremely cuuuuuuute corgo waggy wags stop it fren.</p>
+				<button class="buttons">What</button>
+			</div>
+			<div class="dogs" id="why">
+				<h3>Facts From Dog</h3>
+				<img src="images/dog4-sq.jpg" class="dogpics" width="180px">
+				<p class="dogparagraphs">Most angery pupper I have ever seen such a treat heck, dat tungg tho. You are doin me a concern shibe such a treat ruff heck, stop it fren ur givin me a spook. Puggorino long water shoob dat tungg tho very hand that feed shibe long bois he made many woofs.</p>
+				<button class="buttons">Why</button>
+			</div>
+		</section>
+		<footer>
+			<div id="footcont">
+				<p id="learn">Learn About Dogs Online</p>
+				<a href="https://twitter.com">
+					<img src="images/twitter.svg" class="socialnet">
+				</a>
+				<a href="https://www.instagram.com">
+					<img src="images/instagram.svg" class="socialnet">
+				</a>
+				<a href="https://www.facebook.com">
+					<img src="images/facebook.svg" class="socialnet">
+				</a>
+				<a href="https://www.linkedin.com">
+					<img src="images/linkedin.svg" class="socialnet">
+				</a>
+			</div>
+		</footer>
+	</body>
+</html>

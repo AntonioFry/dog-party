@@ -1,0 +1,172 @@
+	
+* {
+	font-family: Trebuchet MS;
+}
+
+body {
+	margin: auto;
+	width: 100%;
+}
+
+/* top nav */
+
+#topnav {
+	background-color: #75e2e6;
+	text-align: right;
+	height: 70px;
+	width: 100%;
+	border: solid;
+	border-color: #048eaa;
+	border-width: 0px 0px 1px 0px;
+	position: fixed;
+	top: 0;
+	overflow: scroll;
+}
+
+#logo {
+	margin: 10px 20px; 
+}
+
+.navtext {
+	margin: 20px;  
+	font-size: 125%;
+	text-decoration: none;
+	display: inline-block;
+}
+
+/* First Section */
+
+#section1 {
+	height: 600px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/park.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border: solid;
+	border-color: #048eaa;
+	border-width: 1px 0px 0px 0px;
+	margin-top: 70px;
+}
+
+#some_dogs {
+	margin: auto;
+	width: 400px;
+	height: 100%;
+}
+
+#siteabout {
+	text-align: center;
+	font-size: 30px;
+}
+
+#dogsname {
+	font-weight: bold;
+}
+
+#inputname {
+	font-size: 20px;
+	text-align: left;
+}
+
+input {
+	width: 99%;
+	height: 45px;
+	margin-bottom: 20px;
+	font-size: 30px;
+}
+
+#namebutton {
+	background-color: #75e2e6;
+	color: black;
+	text-align: center;
+}
+
+.whitetext {
+	color: white;
+}
+
+/* section 2 */
+
+#section2 {
+	height: 100%;
+}
+
+h3 {
+	text-align: center;
+}
+
+.dogs {
+	display: inline-block;
+	margin-left: 5%;
+	margin-right: 5%; 
+	font-size: 150%;
+	height: 100%;
+	width: 325px;
+}
+
+.dogparagraphs {
+	height: 325px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* footer */
+
+footer {
+	background-color: #048eaa;
+	height: 150px;
+	padding: 20px;
+}
+
+#learn {
+	text-align: center;
+	font-size: 150%;
+	color: white;
+	margin-bottom: 50px;
+}
+
+#footcont {
+	margin: auto;
+	width: 300px;
+	height: 100px;
+}
+
+/* images */
+
+.socialnet {
+	width: 40px;
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+.dogpics {
+	display: block;
+	margin: auto;
+	border: solid;
+	border-color: #048eaa;
+	border-width: 4px;
+	border-radius: 50%;
+}
+
+/* buttons */
+
+.buttons {
+	width: 100%;
+	height: 45px;
+	margin: auto;
+	margin-bottom: 20px;
+	display: block;
+	background-color: #048eaa;
+	font-size: 125%;
+	color: white;
+}
+
+@media only screen and (max-width: 640px) {
+	div {
+		width: 100%;
+		display: block;
+		margin: auto;
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
